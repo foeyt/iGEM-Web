@@ -1,0 +1,64 @@
+# 依赖文件
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 构建输出
+dist/
+build/
+*.local
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# 编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 测试覆盖率
+coverage/
+*.lcov
+.nyc_output/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 项目特定文件
+# LaTeX 编译文件
+/winter-plan.tex
+
+# GitHub Pages 部署相关（gh-pages 分支会自动处理）
+.gh-pages/
+
+# 其他
+*.log
+.cache/
+.temp/
