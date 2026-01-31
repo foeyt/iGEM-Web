@@ -157,11 +157,11 @@
             const diff = touchEndY - touchStartY;
 
             if (Math.abs(diff) > swipeThreshold) {
-                if (diff > 0) {
+                if (diff < 0) {
                     if (currentPage < totalPages - 1) {
                         goToPage(currentPage + 1);
                     }
-                } else if (diff < 0) {
+                } else if (diff > 0) {
                     if (currentPage > 0) {
                         goToPage(currentPage - 1);
                     }

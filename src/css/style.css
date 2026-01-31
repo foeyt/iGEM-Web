@@ -376,18 +376,12 @@ body[data-page="0"] .fixed-header .intro {
 
 /* 移动端适配 */
 @media (max-width: 768px) {
-    .banner {
+    .hero-title {
+        opacity: 0;
+    }
+
+    .fixed-header .banner {
         height: 200px;
-    }
-
-    .avatar_img {
-        width: 150px;
-        height: 150px;
-        top: 130px;
-    }
-
-    .avatar_img:hover {
-        top: 120px;
     }
 
     .mobile-menu {
@@ -417,22 +411,16 @@ body[data-page="0"] .fixed-header .intro {
     .content {
         padding: 0 20px;
     }
+
+    #waifu {
+        opacity: 0;
+    }
 }
 
 /* 更小屏幕的优化 */
 @media (max-width: 480px) {
-    .banner {
-        height: 150px;
-    }
-
-    .avatar_img {
-        width: 120px;
-        height: 120px;
-        top: 90px;
-    }
-
-    .avatar_img:hover {
-        top: 80px;
+    .hero-title {
+        opacity: 0;
     }
 
     .sidebar {
@@ -443,5 +431,9 @@ body[data-page="0"] .fixed-header .intro {
     .nav-link {
         font-size: 13px;
         padding: 8px 10px;
+    }
+
+    #waifu {
+        opacity: 0;
     }
 }
